@@ -1,4 +1,4 @@
-# CV en toekomstplan
+# CV and future plans
 
 ## Curriculum Vitae
 Curriculum Vitae

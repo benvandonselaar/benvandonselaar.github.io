@@ -1,3 +1,14 @@
-cv-en-toekomstplan
+cv-and-future-plans
 curriculum-vitae
 future-plans
+personal-assignment
+data-management
+formative-assignment-rna-seq-daur2
+portfolio-repository
+reproducible-science
+reproduction-of-external-data-analysis
+review-of-article-reproducibility
+sql
+r-package
+introduction-projecticum-transcriptomics-pipeline-project
+parameterized-r-markdown

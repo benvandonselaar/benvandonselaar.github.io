@@ -1,7 +1,7 @@
 ---
 title: "DSFB2 Workflows Portfolio"
 author: "Andreas von Balen"
-date: "2026-04-22"
+date: "2026-04-23"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book

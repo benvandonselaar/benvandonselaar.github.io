@@ -208,10 +208,43 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ## ├── data_raw
 ## │   └── fastq
 ## │       └── sample_1.fastq
-## ├── README.txt
+## ├── README.html
+## ├── README.md
 ## └── scripts
 ##     ├── alignment_mapping_plot_BvD_LE.R
 ##     └── fastq_dump_BvD_LE.sh</code></pre>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="data-management.html#cb3-1" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">readLines</span>(<span class="st">&quot;C:/Users/Ben/Documents/daur2_rnaseq/README.md&quot;</span>), <span class="at">sep =</span> <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<pre><code>## # Project: DAUR2 RNA-seq analysis iPSC versus fibroblasts
+## This folder contains the RNA-seq files used for the DAUR2 formatieve assignment in the DSFB1 course: a RNA-seq analysis of fibroblasts and induced pluripotent stem cells (iPSC).
+## 
+## &lt;br&gt;
+## 
+## ## Folder structure:
+## `/analysis`  
+## contains figures, images and other results of the analysis.  
+## `/data_processed/bam`  
+## contains aligned BAM files and alignment statistics.  
+## `/data_processed/counts`  
+## contains read count files used for DESeq2 analysis.  
+## `/data_raw/fastq`  
+## contains original FASTQ files.  
+## `/scripts`  
+## contains all scripts used for data processing and analysis.
+## 
+## &lt;br&gt;
+## 
+## ## Analysis workflow
+## 1. Download FASTQ files
+## 2. Quality control by FastQC
+## 3. Alignment to hg38 reference genome
+## 4. Feature counting by featureCounts
+## 5. Differential expression analysis by DESeq2
+## 6. GO-term enrichment analyse
+## 
+## &lt;br&gt;
+## 
+## ## Author:
+## Andreas von Balen</code></pre>
 </div>
 <div id="portfolio-repository" class="section level2 hasAnchor" number="3.2">
 <h2><span class="header-section-number">3.2</span> Portfolio repository<a href="data-management.html#portfolio-repository" class="anchor-section" aria-label="Anchor link to header"></a></h2>

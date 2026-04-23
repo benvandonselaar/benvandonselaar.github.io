@@ -1,5 +1,10 @@
 cv-and-future-plans
 curriculum-vitae
+education
+skills
+languages
+extra
+contact
 future-plans
 personal-assignment
 data-management

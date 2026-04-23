@@ -7,6 +7,11 @@ extra
 contact
 future-plans
 personal-assignment
+planning
+week-1-learning-the-basics
+week-2-applying-the-skill
+week-3-writing-up-the-assignment
+development
 data-management
 formative-assignment-rna-seq-daur2
 portfolio-repository

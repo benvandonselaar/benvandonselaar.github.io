@@ -18,6 +18,9 @@ portfolio-repository
 reproducible-science
 reproduction-of-external-data-analysis
 review-of-article-reproducibility
+part-1
+part-2
+part-3
 sql
 r-package
 introduction-projecticum-transcriptomics-pipeline-project

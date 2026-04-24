@@ -6,7 +6,7 @@
 
 ``` r
 # Create data object
-data <- read_excel("C:/Users/Ben/Documents/dsfb2_workflows_portfolio/exercise_4a/data_raw/CE.LIQ.FLOW.062_Tidydata.xlsx")
+data <- read_excel("exercise_4a/data_raw/CE.LIQ.FLOW.062_Tidydata.xlsx")
 
 # Show the first lines of the data
 head(data)
@@ -205,3 +205,18 @@ The first script (Load and Organiza Data.R) imports the survey data from six wav
 The second script (Results.R) uses the cleaned dataset to run the main analyses. It creates panel variables, performs descriptive checks, compares Democrats and Republicans, estimates fixed-effects regression models, and generates tables and figures for the article. The code also includes attrition analyses and summary tables.
 
 Overall, the code is reasonably understandable because it is divided into sections and contains a comment per section. However, for a student like me (with not that much experience), it would be even better if there were more detailed comments and explanations for each step. I therefore rate the readability of the code as **4.5 out of 5**.
+
+**Repeating the analysis**  
+Firstly, I had to install packages ‘fixest’, ‘lfe’ and ‘openxlsx’ before being able to run the R script.’  
+It’s important to make the Rproj file within the folder that acts as the base of the relative pathway.  
+When these are secured, the Load and Organize Data.R script could be runned. It creates some objects in the environment, which probably could be used for the next script.  
+For the next script I had to install packages ‘ltm’ and ‘psych’.  
+I also had to manually make a `results/`directory.  
+When these are secured, the Results.R script could be runned. It creates some extra objects in the environment, and more importantly, it creates some figures (.tiff files) and .csv files which represents the results. For example this one:   
+
+<div class="figure">
+<img src="exercise_4b/results/Fig_1.png" alt="Reproduced figure from the article." width="100%" />
+<p class="caption">(\#fig:fig1)Reproduced figure from the article.</p>
+</div>
+
+Since everything worked immediately after installing necessary packages and creating a Rproj file in the correct folder. The results also look like as they should be. I therefore rate the reproducibility of the analysis as **5 out of 5**.
